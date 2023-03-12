@@ -1,0 +1,5 @@
+services:
+  MyModule\Controller\Admin\BoilerController:
+    class: MyModule\Controller\Admin\BoilerController
+    arguments:
+      - '@doctrine.cache.provider'

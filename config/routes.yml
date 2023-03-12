@@ -1,0 +1,7 @@
+mymodule_route:
+  path: mymodule/boilerplate
+  methods: [GET]
+  defaults:
+    _controller: 'MyModule\Controller\Admin\BoilerController::fakeAction'
+    _disable_module_prefix: true
+    _legacy_controller: AdminMyModuleBoilerplate
